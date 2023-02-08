@@ -14,3 +14,6 @@ ln -s $DOTFILES/scripts/t $HOME/.local/bin/t
 
 rm -rf $HOME/.config/nvim
 ln -s $DOTFILES/nvim $HOME/.config/nvim
+
+rm $HOME/.zshrc
+ln - $DOTFILES/zshrc/.zshrc $HOME/.zshrc
